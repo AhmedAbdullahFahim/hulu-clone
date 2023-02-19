@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-[#06202A] text-gray-300 scrollbar-thin scrollbar-thumb-gray-400;
+    @apply bg-[#06202A] text-gray-300 scrollbar-thin scrollbar-thumb-gray-300;
   }
 }
 
