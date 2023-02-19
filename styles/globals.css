@@ -11,7 +11,7 @@
 @layer utilities {
   .scrollbar-thin::-webkit-scrollbar {
     height: 4px;
-    width: 8px;
+    width: 6px;
   }
   .scrollbar-thin::-webkit-scrollbar-track-piece:end {
     margin-right: 5rem;
