@@ -4,18 +4,20 @@
 
 @layer base {
   body {
-    @apply bg-[#06202A] text-gray-300 overflow-hidden;
+    @apply bg-[#06202A] text-gray-300 scrollbar-thin scrollbar-thumb-gray-400;
   }
 }
 
 @layer utilities {
   .scrollbar-thin::-webkit-scrollbar {
     height: 4px;
+    width: 8px;
   }
   .scrollbar-thin::-webkit-scrollbar-track-piece:end {
     margin-right: 5rem;
   }
   .scrollbar-thin::-webkit-scrollbar-track-piece:start {
     margin-left: 5rem;
+    margin-top: 1rem;
   }
 }
