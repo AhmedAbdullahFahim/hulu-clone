@@ -5,7 +5,7 @@ const Nav = () => {
   const router = useRouter()
   return (
     <nav className='relative'>
-      <div className='flex text-2xl space-x-10 sm:space-x-20 px:10 sm:px-20 whitespace-nowrap overflow-x-scroll overflow-y-hidden scrollbar-thin scrollbar-thumb-red-500 pb-5'>
+      <div className='flex text-lg sm:text-xl space-x-10 sm:space-x-20 px:10 sm:px-20 whitespace-nowrap overflow-x-scroll overflow-y-hidden scrollbar-thin scrollbar-thumb-red-500 pb-5'>
         {Object.entries(requests).map(([key, { title, url }]) => (
           <h2
             key={key}
